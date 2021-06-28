@@ -27,11 +27,27 @@ h1 {
     font-weight: 900;
 }
 
+.oscuramento {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 15px;
+}
 
+/*formattazione img*/
 
-
+.parte-sopra, .img-row-sx, .img-row-cx, .img-row-dx {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*header*/
+
 .header {
     margin: 20px 0px;
 }
@@ -56,13 +72,8 @@ h1 {
 
 /*main parte alta*/
 .parte-sopra {
-    position: relative;
     height: 630px;
     background-image: url(../img/banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 20px 0px;
 }
 
 .testo-signorina {
@@ -79,16 +90,9 @@ h1 {
 }
 
 /*sezione colonne*/
-.barra {
-    margin: 00px 0px;
-}
 
 .img-row-sx, .img-row-cx, .img-row-dx {
-    position: relative;
     height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .img-row-sx {
@@ -139,12 +143,3 @@ h1 {
     color: red;
 }
 
-.oscuramento {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    border-radius: 15px;
-}
