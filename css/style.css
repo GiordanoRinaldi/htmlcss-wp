@@ -1,0 +1,64 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.main {
+    height: 100px;
+    background-color: violet;
+    margin: 20px 0px;
+}
+
+.parte-sopra {
+    height: 450px;
+    background-color: yellowgreen;
+    margin: 20px 0px;
+}
+
+.parte-sotto {
+    background-color: blue;
+}
+
+
+.barra, .colonna-dx, .colonna-cx, .colonna-sx {
+    background-color: cornflowerblue;
+}
+
+.barra {
+    height: 50px;
+}
+
+.colonna-dx, .colonna-cx, .colonna-sx {
+    float: left;
+}
+.colonna-dx, .colonna-sx {
+    width: 20%;
+}
+
+.colonna-cx {
+    width: calc(60% - 40px);
+    margin: 0 20px;
+}
+
+.colonne {
+    padding: 20px 0;
+}
+
+.footer {
+    height: 80px;
+    background-color: rgb(207, 148, 207);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
