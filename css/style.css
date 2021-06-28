@@ -1,8 +1,11 @@
+/*reset*/
 * {
     border: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/*common*/
 
 .clearfix::after {
     content: "";
@@ -10,15 +13,37 @@
     clear: both;
 }
 
+/*body*/
+
 body {
     width: 80%;
     margin: auto;
 }
 
+/*header*/
 .header {
     margin: 20px 0px;
 }
 
+.logo {
+    height: 60px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+    padding-right: 15px;
+}
+
+.nav {
+    margin-bottom: 40px;
+}
+
+
+/*main*/
 .parte-sopra {
     height: 450px;
     background-color: yellowgreen;
@@ -60,3 +85,4 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
