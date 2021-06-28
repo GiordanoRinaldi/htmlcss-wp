@@ -58,7 +58,9 @@ body {
     width: 700px;
     position: absolute;
     bottom: 0;
-    margin: 100px 60px;    
+    margin: 100px 60px; 
+    color: white;   
+    z-index: 1;
 }
 
 .title {
@@ -67,6 +69,7 @@ body {
 
 /*sezione colonne*/
 .img-row-sx, .img-row-cx, .img-row-dx {
+    position: relative;
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -86,17 +89,6 @@ body {
     /*comunque la lampadina ha forma di 8==D*/
 }
 
-.parte-sotto {
-    background-color: blue;
-}
-
-
-.barra, .colonna-dx, .colonna-cx, .colonna-sx {
-    background-color: cornflowerblue;
-}
-
-
-
 .colonna-dx, .colonna-cx, .colonna-sx {
     float: left;
 }
@@ -113,10 +105,13 @@ body {
     padding: 20px 0;
 }
 
+.subtitle {
+    padding: 10px 0;
+}
+
 /*footer*/
 
 .footer {
-    background-color: rgb(207, 148, 207);
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -126,3 +121,12 @@ body {
     color: red;
 }
 
+.oscuramento {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 15px;
+}
