@@ -15,9 +15,7 @@ body {
     margin: auto;
 }
 
-.main {
-    height: 100px;
-    background-color: violet;
+.header {
     margin: 20px 0px;
 }
 
