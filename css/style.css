@@ -43,7 +43,7 @@ body {
 }
 
 
-/*main*/
+/*main parte alta*/
 .parte-sopra {
     position: relative;
     height: 630px;
@@ -65,6 +65,26 @@ body {
     font-size: 40px;
 }
 
+/*sezione colonne*/
+.img-row-sx, .img-row-cx, .img-row-dx {
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-row-sx {
+    background-image: url(../img/img-1.jpg);
+}
+
+.img-row-cx{
+    background-image: url(../img/banner-2.jpg);
+}
+
+.img-row-dx {
+    background-image: url(../img/img-3.jpg);
+    /*comunque la lampadina ha forma di 8==D*/
+}
 .parte-sotto {
     background-color: blue;
 }
@@ -74,9 +94,7 @@ body {
     background-color: cornflowerblue;
 }
 
-.barra {
-    height: 50px;
-}
+
 
 .colonna-dx, .colonna-cx, .colonna-sx {
     float: left;
