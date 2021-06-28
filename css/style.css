@@ -74,6 +74,7 @@ h1 {
 .parte-sopra {
     height: 630px;
     background-image: url(../img/banner.jpg);
+    margin-bottom: 20px;
 }
 
 .testo-signorina {
