@@ -45,9 +45,24 @@ body {
 
 /*main*/
 .parte-sopra {
-    height: 450px;
-    background-color: yellowgreen;
+    position: relative;
+    height: 630px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 20px 0px;
+}
+
+.testo-signorina {
+    width: 700px;
+    position: absolute;
+    bottom: 0;
+    margin: 100px 60px;    
+}
+
+.title {
+    font-size: 40px;
 }
 
 .parte-sotto {
